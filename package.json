@@ -1,0 +1,13 @@
+{
+  "name": "meme2midi-processor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "scripts": {
+    "start": "babel-node src/index.js --presets es2015,stage-2"
+  }
+}
